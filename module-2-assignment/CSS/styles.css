@@ -1,11 +1,80 @@
-@media (min-width: 992){
-	
+
+* {
+	box-sizing: border-box;
+	font-size: 16px;
+	font-family: 'Montserrat', sans-serif;
 }
 
-@media (min-width: 768) and (max-width: 991){
-	
+h1 {
+	text-align: center;
+	font-size: 1.75em;
 }
 
-@media (max-width: 767){
+.grid-container .col-elem {
+	float: left;
+}
 
+.grid-container .col-elem div {
+	border: 1px solid;
+	margin: 10px;
+	padding: 30px 5px 2px 5px;
+	position: relative;
+	background-color: lightgray;
+}
+
+span.title{
+	position: absolute;
+	top: -1px;
+	right: -1px;
+	border: 1px solid;
+	padding: 3px 15px;
+	font-size: 1.15em;
+}
+
+span.title#chicken{
+	background: red;
+}
+
+span.title#beef{
+	background: yellow;
+}
+
+span.title#sushi{
+	background: green;
+}
+
+@media (min-width: 992px){
+	.desktop-col-6 {
+		width: 100%;
+	}
+	.desktop-col-3 {
+		width: 50%;
+	}
+	.desktop-col-2 {
+		width: 33.33%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+	.tablet-col-6 {
+		width: 100%;
+	}
+	.tablet-col-3 {
+		width: 50%;
+	}
+	.tablet-col-2 {
+		width: 33.33%;
+	}
+}
+
+@media (max-width: 767px){
+	.mobile-col-6 {
+		width: 100%;
+	}
+	.mobile-col-3 {
+		width: 50%;
+	}
+	.mobile-col-2 {
+		width: 33.33%;
+	}
 }
