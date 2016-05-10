@@ -1,0 +1,65 @@
+* {
+	box-sizing: border-box;
+}
+
+#my-navbar {
+	background-color: gray;
+	border-radius: 0;
+	border: 2px solid;
+}
+
+#my-navbar-brand {
+	color: black;
+}
+
+h1{
+	font-size: 26px;
+}
+
+#big-high-section{
+	min-height: 1100px;
+	margin: 25px;
+	padding: 10px;
+	background-color: gray;
+}
+
+#big-high-section > p{
+	margin: 15px;
+}
+
+#high-section-tiltle {
+	font-weight: bold;
+	margin: 10px;
+	font-size: 16px;
+	text-align: center;
+}
+
+#my-collapse-ul {
+	text-align: center;
+	font-size: 16px;
+	background-color: white;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+hr {
+	padding: 0;
+	margin: 0;
+}
+
+#my-collapse-ul a:hover {
+	background-color: lightgray;
+}
+
+#my-collapse-ul a {
+	border-top: 1px solid;
+}
+
+#my-navbar-toggle {
+	border: 2px solid;
+	border-color: black;
+}
+
+#my-navbar-toggle .icon-bar {
+	background-color: black;
+}
